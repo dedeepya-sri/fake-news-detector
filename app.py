@@ -7,7 +7,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 app = Flask(__name__)
 
-model = tf.keras.models.load_model("model/fake_news_model.h5")
+model = tf.keras.models.load_model("model/fake_news_model.keras")
 
 with open("model/tokenizer.pkl", "rb") as f:
     tokenizer = pickle.load(f)
