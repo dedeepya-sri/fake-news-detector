@@ -1,7 +1,7 @@
 flask
 streamlit
-tensorflow==2.13.0
-numpy
+tensorflow==2.12.0
+keras==2.12.0
 pandas
 scikit-learn
 beautifulsoup4
